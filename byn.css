@@ -1,0 +1,301 @@
+*{
+	font-family: Verdana, Sans-serif;
+	margin:0 auto;
+}
+#wrapper{
+	position: absolute;
+	width:100%;
+	height:2300px;
+	background-color: white;
+}
+
+#logo{
+	    position: absolute;
+	    background-image: url(data:image/png;base64,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);
+	    background-size: 100% 100%;
+	    top:80px;
+	    width: 100px;
+	    height:70px;
+	    border: 1px solid black;
+	    left: 200px;
+}
+    menu ul{
+	    position: absolute;
+	    list-style-type: none;
+	    border: 1px solid white;
+	    top: 130px;
+	    left:460px;
+	    margin: 0 ;
+	    padding: 0;
+
+
+
+}
+        menu ul li{
+	        display: inline;
+	        font-size: 14px;
+	        padding: 0px 3px;
+}
+
+
+
+
+
+
+
+
+
+#container{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: no-wrap;
+	justify-content: space-around;
+	align-items:center;
+	border: 1px solid black;
+	width:92%;
+	height:2200px;
+	margin: 0 auto;
+	margin-top: 180px;
+	margin-bottom: 100px;
+	background-color: white;
+}
+.parte{
+	border: 1px solid black;
+	width:100%;
+	height: 100%;
+}
+
+   #primero{
+	        position: relative;
+	        width: 100%;
+	        height:100%;
+	        margin: 0 auto;
+	        border-bottom: 1px solid black;
+	        background-image: url(https://images.unsplash.com/photo-1414759030024-7889df4b20f4?ixlib=rb-0.3.5&q=80&fm=jpg&w=1080&fit=max&s=9ea6e03eb8e86b57d712e50c36e3c050);
+	        background-repeat: no-repeat;
+}
+            #primero ul{
+	            position: absolute;
+	            list-style-type: none;
+	            color: white;
+	            background-color: transparent;
+	            padding: 0;
+	            width: 500px;
+	            text-align: center;
+	            /* No pude posicionar el ul con margin 0 auto, así que lo tuve que mover con margin-left, 
+	            lo que me parece seriamente chafa*/
+	            margin-left: 210px;
+	            margin-top: 70px;
+}
+                    #primero ul li{
+	                     display: inline;
+	                     font-size: 12px;
+}
+            #primero p{
+	            font-size: 30px;
+	            color: white;
+	            background-color: transparent;
+	            width: 70%;
+	            text-align: center;
+	            margin-top: 100px;
+	         
+}
+            #a{
+            	font-size: 10px;
+            	background-color: transparent;
+            	color: white;
+            	width: 120px;
+            	/*¿Porqué carajo se movieron los dos botones si los tengo separados? como a y b.*/
+            	margin-left: 330px;
+            	margin-top: 20px;
+            	padding-left: 10px;
+            	padding:10px;
+            	border-radius: 3%;
+            	border-style: 1px solid white;
+
+            }
+            #b{
+            	font-size: 10px;
+            	background-color: #00ABA9;
+            	width: 120px;
+            	margin-left: 20px;
+            	padding: 10px;
+            	color: white;
+            	border-radius: 3%;
+            	border-style: 1px solid white;
+            }
+            #azul{
+            	font-size: 10px;
+            	position: absolute;
+            	border:3px  solid #1BA1E2;
+            	background-color: transparent;
+            	width: 30px;
+            	margin-top: 190px;
+            	margin-left: -150px;
+            	padding: 4px 4px;
+            	border-radius: 20% ;
+            }
+
+#dos{
+	background-color: #E5E5E5;
+}
+
+
+
+#dos h2 {
+	text-align: center;
+	font-size: 18px;
+	margin-top: 80px;
+
+
+}
+
+#dos p{
+	width: 600px;
+	margin-top: 30px;
+}
+
+#separator{
+    width: 40px;
+    height:4px;
+    margin-left: 450px;
+    margin-top: 30px;
+}
+
+
+
+#tres{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: no-wrap;
+	justify-content: space-around;
+	align-items: center;
+	width: 100%;
+	height: 270px;
+}
+.pics{
+	border: 1px solid black;
+	width: 203px;
+	height:270px;
+	padding: 0px;}
+#p1{
+	background-image: url("https://images.unsplash.com/photo-1445530267781-c494649fc4bc?dpr=1.5&fit=crop&fm=jpg&h=475&ixlib=rb-0.3.5&q=66&w=1050");
+}
+#p2{
+	background-image: url("https://images.unsplash.com/photo-1445249310874-ddfd23018ee3?dpr=1.5&fit=crop&fm=jpg&h=475&ixlib=rb-0.3.5&q=66&w=1050");
+
+}
+#p3{
+	
+	background: url("https://images.unsplash.com/photo-1445159274149-10db0c7cb5fd?dpr=1.5&fit=crop&fm=jpg&h=475&ixlib=rb-0.3.5&q=66&w=1050");
+}  
+#p4{
+	background-image: url("https://images.unsplash.com/photo-1445140402314-ffd9630d0b19?dpr=1.5&fit=crop&fm=jpg&h=475&ixlib=rb-0.3.5&q=66&w=1050");
+
+}
+#p5{
+    background-image: url("https://images.unsplash.com/photo-1444146227779-f7ff8c9f4a8e?dpr=1.5&fit=crop&fm=jpg&h=475&ixlib=rb-0.3.5&q=66&w=1050");
+}
+#p6{
+    background-image: url("https://images.unsplash.com/photo-1444752176289-a22f853cb706?dpr=1.5&fit=crop&fm=jpg&h=475&ixlib=rb-0.3.5&q=66&w=1050");
+}
+#cuatro{
+	background-color: #E5E5E5;
+	display: flex;
+	flex-direction:row;
+	flex-wrap: no-wrap;
+	justify-content: center;
+	align-items: center;
+}
+.blancos{
+	width: 170px;
+	height:190px;
+	background-color: white;
+}
+#idea{
+background-image: url("http://www.priceypads.com/wp-content/themes/lifestyle/images/nav-blue.png");
+background-repeat: no-repeat;
+background-size: 25px 3px;
+background-position: 50% 35%;
+}
+#idea img{
+	display: absolute;
+	width: 30px;
+	height:30px;
+	margin-left: 70px;
+	margin-top: 20px;
+}
+#work{
+	margin-left: -170px;
+	background-image: url("http://www.priceypads.com/wp-content/themes/lifestyle/images/nav-blue.png");
+    background-repeat: no-repeat;
+    background-size: 25px 3px;
+    background-position: center;
+    background-position: 50% 35%;
+}
+#work img{
+	display: absolute;
+	width:30px;
+	height:30px;
+	margin-left: 70px;
+	margin-top: 20px;
+}
+#deliver{
+	margin-left: -170px;
+	background-image: url("http://www.priceypads.com/wp-content/themes/lifestyle/images/nav-blue.png");
+    background-repeat: no-repeat;
+    background-size: 25px 3px;
+    background-position: 50% 35%;
+}
+#deliver img{
+	display: absolute;
+	width: 30px;
+	height: 30px;
+	margin-left: 70px;
+	margin-top: 20px;
+}
+.blancos p{
+	font-size: 12px;
+	color: #66665A;
+	text-align: center;
+	margin-top: 20px;
+}
+h3{
+	font-size: 13px;
+	color: black;
+	text-align: center;
+	margin-top: 30px;
+}
+
+
+
+
+#cinco h2{
+	text-align: center;
+	font-size: 13px;
+	margin-top: 70px;
+}
+#cinco img{
+	width: 40px;
+	height: 5px;
+	margin-left: 470px;
+	margin-top: 15px;
+}
+#cinco p{
+	text-align: center;
+	margin-top: 10px;
+	width: 500px;
+	font-size: 12px;
+}
+h6{
+	text-align: center;
+	margin-top: 5px;
+	font-style: italic;
+	color: grey;
+}
+#mlogos{
+	width:600px;
+	height: 150px;
+	border: 1px solid black;
+	margin-top: 20px;
+}
