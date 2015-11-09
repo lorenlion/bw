@@ -1,6 +1,11 @@
 *{
 	font-family: Verdana, Sans-serif;
 	margin:0 auto;
+
+}
+a{
+	text-decoration: none;
+	color: black;
 }
 #wrapper{
 	position: absolute;
@@ -10,18 +15,18 @@
 }
 #logo{
 	    position: absolute;
-	    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAARMAAAC3CAMAAAAGjUrGAAAAb1BMVEX19fVRUVH///9PT0/39/f6+vpFRUVTU1P8/PxKSkrz8/NLS0tHR0dCQkJfX1/Gxsbs7OxycnLm5ubY2NiLi4tZWVm/v79kZGStra1tbW2hoaHc3Nx/f3+SkpK0tLTKysp5eXmlpaU6OjqYmJiFhYXXhpn8AAAHTElEQVR4nO2diXaiShCGobt6ARpFEFRQNNH3f8ZbjWa5SWbQCM4prC9jwslMPMOf2ruBIGAYhmEYhmEYhmEYhmEYhmEYhmEYhmEYhmEYhmGYZwUggCDGr/hHKeVf+Bm/2/1l8PnL0+DPF7wSNmiKeVWt27aq9kVmrbKdXs8IKBvnVb01aZpq7TzaH66W630G3maeTBhQkFe7WeqcDDvM+ZP/krg0WtRoMU8iSRz43z7YvN1KHV30eMN8HEinZ7t9oDoPm7i9+LNTUCyN/qLHd2TkVuvcG8vkJQE737hEmj5JvCrSyV0upi1Jp8gsldJcI4kPLzJKT7masioAxSLtdZovJLrOfBKaogtBoLKdu1URby6ubBXEE5QkCGxlok/J5Qak2+Z2YqL4bKqCZXopQG40E/8zkawEnBPzNMCuJrDNzP3CQj5MJd2hJvF0jAXQb3wk+Y3fvJuL22QqgPhfn8tAxGDXqfmN33zWREaz5q1vJg10MwFVp/cZSdj9eBIWdgoBpWtvdvo+Pd6Qyd5OISmjJKf+5uYqsDWM5vS7ZTwBtdT3+s2HKtLt1b8+p3uB2B4HcpwzMiwU9Zhi23QoI+kwssyIT1Ts3g0qCRJtKHsPVhN5OUx4/cCEbif+9ZndAxyi60YlN6Er+69P7Ndg+Tq453SYnGw8gSbBmDiCKsmJqiaxWgwdTM5gSJkTjbNDp+HPoswyiqIAxNE4ivgiRdcENQGwx7uGSH/VxIQpxTALWTKWJJ5oSa8ZRDMZzXU8Rjf0NMlGiq8XSWSyI1W4+bGPWo8WTc5IYoUbihLPxqlN3jHpmlbqAZg7M6ooJpQrYlNIdRo1wnrXCfWe1uJ6Nrbn4Cs5ktIEqkEHjj8jZ4ScBwJ7GrVgu5AWdDRBVR4hSRjVhEoUKNJHaCI3hOxk9ILtgs7oiGJPI6edDmyO93Q0EaP2Oh+auJbM+hdkj3GdMFlaKjuXVPEgTcIZmZUeVT1KE01mP4p6+bqT/oez8bL5vUvSpWnquk1MePiaRj4WGemv0Oje5K+hKSWTeNSutwGcFfOyO2Pp1rnN11jjmURWmW2W2s8Btlii7heub78XnUrWbnsXulYCZt2BbISwQsTSty/d4Vob/dIdiWPfMqImsxvFLvo0kSsR+KGT0ZWAw+siE3PtCpGv0p0Qq2gjRJvKSoiwxwd1RWXTn91cpUl3lImjlm4prNwosXDytW4Xei3y11BGmah7DMVVZOxkdaUmxgtR+jVlK1ZbobQ87Ja7TVoIzFwynYu+BOaLNhrY2fWaWFHiP0ZNNlsBGl0JA8prga5jjNdE99hJS8R1ArHqCQPmHE+QMhbLSLqTEAaDyMptDnPUpBXYWEuXC+wl/yqKoxNP+jTxdhJvSgRtIV7JVY4iuEbkxieftT4IUSeyFWhDfZqQ8Z2+vCNRE6EUoG+UmbC5ElCGySYQKsccvHYO5cgwM7/0FSiajibbnl8v1iJ5x9rJcp5n2dxHoGS1z7Jm2xwj444NHi57WwRNZlhgl72jR5l0oI9JHZbmfPmXdMa4RPrjKCrLqK8aloTqWOx3RtjZ9x3j+x0ioqi+FDqUJCYl0xfD3o2xs+87ckbm4mPIR14YPWNMcqKzmGH7ereBcIS2FtjDgzSZU3Ed1OTlMcNHOmM2TDz7R6wDYtdER5IA4kfYCVa7dMKJr+4fsq+AzOTRo1r9gErWEAonfiUwuvIeJ3eQLKkU9h4IYDt+NtZzUnu3Ajt+y+O3bpG6ewFk5bgtjwxdTWax+II9RuNuLg+ThlI48UAux4woRiZbS+4yY7uMwrtvZvFnpC7ISRJD4zUZzVbkgVo08elYLMecotCZxH4GsoFu8fETFC/z8ti6ZxXvDmRG894wAKNdw5PS2fD4BdiPcyWClIuA7B241EiX0yYF3ZsQQ7xK7rwF2Tfw3fSazrj+KwBQRMO3PcmBrJF4wLZDT2allDG1Rucz+H8XxwGHBt07RQ2lieNPgDoNNoY03c27qd7m4xMQHwYr3QylXX1/A7LFYI1Pd6E14WDyDorSu0n8Cjmk34Xf0s3C/wNT8naI2xsaqSt6A4I/4u/5eCcSP/YTsRJPDOq+VXXvetFsGnePfQdUFd5R0aIm+pBPIeN8BlSz+f2MycjXelI20oGBFuqbn4Hwhka/mZwk3eWdolncuvnP+G1rUVQHU/ObdxS0JRa1t9T6WM3rbTNFI3kDVPZibkrLiV7sFdAcvl7B+dEO1qtybVxJ0sX8PFKbqCYXQAXtKvWzpj+4kLm8pE5PBdDaT/FLMAEpUezK7nFeP8uCQSRxctHGTyFIh3cGG+zrjdHu+0q7RD1cuW1z+0yPw+vOE8BCvq+3K+kfDhgl+BE551JXLpbrIrsI8iySfIC6qDhv5u1Lfdztdsd6XRV5FnR6PDPQPW7UP1HTWugeOPrcenRA8FF8TPRRZrcDwf8eSvWcYYRhGIZhGIZhGIZhGIZhGIZhGIZhGIZhGIZhGIZhfuA/hkplpixa8iwAAAAASUVORK5CYII=);
+	    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASAAAACgCAMAAACbmkHeAAAAV1BMVEX///+cnZ2TlJStrq7x8fGZmprt7u6Wl5f4+PinqKje3t719fWhoqKkpaX7+/uen5+1t7fGxsbPz8/j4+PBwsK5ubno6OjW1tbQ0dHExMSMjY2wsbHf399+ErlmAAAFS0lEQVR4nO2c53ajMBBGbcMgum26Q97/OZeihhGrLPEeyvnurxhFBN0zGjWcywUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHBWAudcFJ/VU97obHxlH/QT3q7n4xZ9zI/f0tat+Q9Q+TFB7hkDqAuhzwliW7flvwBBFiDIAgRZgCALEGQBgixAkAUIsgBBFiDIAgRZgCALEGQBgixAkAUIsgBBFiDIwsaCiN16FqoSG4oZWzgOIPpLuahMvztL2FiQ4w51fWPd5BFWfWkVPhJTedxmud+X14/4rYiuQfHt9Xeumjb+jaJtBZHjLdWl5OWpm3vP5K2VFBe5Ks/L+6QweLqqsCru6xVtHUFLgiioprevgkkjyclTvdgPNUOsnFZO63e9P2enEUSB935/TzdkKM9lN2Pt7OHy1d1spxHUuoY/0Co/pT8r9ksShYanq4xZbPeCliLoHqp2KxWqF2nxk/q8q734PfTO6atu2Kychewygki+dpI/y/Ipk3HBY4TV4kqVlWWR9UZCcYu7eCEjDYuusrQVHFHQQgTJVyqecf8OSvzkH6Px+J8SaSzu5kJ0jUOtCwUi5Lqxq68sgjFcF0J7jCCZRDL+PgQThsY0Q9/jp/QhqtHDEUmYGv67spCH28q3T/YYQaIHVXJcinlHqdlQicdIpt1INYinJ/m2EvHJ6OV5QEHmCIpnLaIX/xt9miaeZDzH1OKYP46KF+K+v1c839aCjBFEjzFCXCVARMHQTe48aTfGFRjvnir6ukspF/rvD7i1IGMEUTE2KNcWWPEoJe3HMV7HnFNEeDXatWTM+dFjTR/bYwTxNtbaRZGWMuoCjLf3fYE6/iIftF6aDJ6W5Ezyn9hhBGkyJJo0MYv2xjqBok9QbEznqS5DSCuOJ8gYQaI9+qhDfKDvJjMiYY/zGlZFHD/vcwzjyWoiqJ7f8CCCzBFkEcR/HHsgU4s274SCVkXQsiA6nSDzKNboBqZt7IZ2zdW7oP4znwPo+UbkpbPkIGlAjyAVVXJac5sJInO00DjsnWYUE8OUvoWTVLKNcpgflucsdzu4oKuac9faBqMTKYEHE2ReiwWzid1ESjDpMazjSwkgvpvoKbv0SmfCjyJoYTXP15vaYlQsvwYnvLup/bMbFzRU5o+j+pPYfasPuFg1R5CYFbpiq50SnmmGuaPIUb6MMCGo/yyytCdX83xpty5H7zKC5Ir8ezz0I7EBdBlXFzHfT3PFamwSQXIzadwDkTuw7uRg6CCCZATpX8VTM6FL7fQXHLHDyjcFmdhU9V/BUCPhggYjidhkzbpCdnXEx3XbQTuJoKh9SLqwoFZsm3phloVih16t3+W33Lzv7JmN569yO6MQO/VV3ZWJaUC0Ss/WgkQEXXxJOixCjd+ElEnb/C03MYzfc1PpqknQ5oJEBM3vE87/gHZ2KkbuCXJD7D6/qT4iHkkQLQmiZGYonBwfP2ffJY2eQqDh2LUxbh7tX9ByBNE1mxyeps3bCwjt29l9rm0wUlJPyvxi3Qi2vaDFCBoUaEEUtrOqSaHVrcrp4fu9VIkobVatMThbR1AeuW/k8rCLXYumct2qLq6mV6ToFr/qvrwxlBNLisbr7lY/jJV/zNav4LE5ejNpuLLYQF5sLh8Lf2Xnur2g3QNBFiDIAgRZgCALEGQBgixAkAUIsgBBFiDIAgRZgCALEGQBgixAkAUIsvBBQfg/in/H/Fru4UnsLf8pK79Os28++L9cL1F7vk52KwxHuKvxo6/buUiiT/oBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACA4/AHo/dwIy675UwAAAAASUVORK5CYII=);
 	    background-size: 100% 100%;
-	    top:50px;
+	    top:45px;
 	    width: 100px;
 	    height:70px;
-	    left: 200px;
+	    left: 180px;
 }
     menu ul{
 	    position: absolute;
 	    list-style-type: none;
 	    border: 1px solid white;
-	    top: 100px;
+	    top: 80px;
 	    left:550px;
 	    margin: 0 ;
 	    padding: 0;
@@ -40,7 +45,7 @@
 	width:92%;
 	height:2100px;
 	margin: 0 auto;
-	margin-top: 160px;
+	margin-top: 120px;
 	margin-bottom: 100px;
 	background-color: white;
 }
@@ -53,7 +58,6 @@
 	        width: 100%;
 	        height:100%;
 	        margin: 0 auto;
-	        border-bottom: 1px solid black;
 	        background-image: url(https://images.unsplash.com/photo-1414759030024-7889df4b20f4?ixlib=rb-0.3.5&q=80&fm=jpg&w=1080&fit=max&s=9ea6e03eb8e86b57d712e50c36e3c050);
 	        background-repeat: no-repeat;
 }
@@ -67,7 +71,7 @@
 	            text-align: center;
 	            /* No pude posicionar el ul con margin 0 auto, así que lo tuve que mover con margin-left, 
 	            lo que me parece seriamente chafa*/
-	            margin-left: 210px;
+	            margin-left: 250px;
 	            margin-top: 70px;
 }
                     #primero ul li{
@@ -89,7 +93,7 @@
             	color: white;
             	width: 120px;
             	/*¿Porqué carajo se movieron los dos botones si los tengo separados? como a y b.*/
-            	margin-left: 330px;
+            	margin-left: 350px;
             	margin-top: 20px;
             	padding-left: 10px;
             	padding:10px;
@@ -120,7 +124,7 @@
             }
 
 #dos{
-	background-color: #E5E5E5;
+	background-color: #EAEAEA;
 }
 #dos h2 {
 	text-align: center;
@@ -128,13 +132,19 @@
 	margin-top: 80px;
 }
 #dos p{
-	width: 600px;
+	width: 700px;
 	margin-top: 30px;
+	text-align: center;
+	font-size: 10px;
+	padding-bottom: 3px;
+	line-height: 180%;
+	font-weight: bold;
+	color: #2F2F2F;
 }
 #separator{
     width: 40px;
     height:4px;
-    margin-left: 450px;
+    margin-left: 462px;
     margin-top: 30px;
 }
 #tres{
@@ -155,11 +165,57 @@
 }
 #p2{
 	background-image: url("https://images.unsplash.com/photo-1445249310874-ddfd23018ee3?dpr=1.5&fit=crop&fm=jpg&h=475&ixlib=rb-0.3.5&q=66&w=1050");
-}}
+}
 #p3{
 	
 	background: url("https://images.unsplash.com/photo-1445159274149-10db0c7cb5fd?dpr=1.5&fit=crop&fm=jpg&h=475&ixlib=rb-0.3.5&q=66&w=1050");
-}  
+}
+#cuadroazul{
+	width: 160px;
+	height: 180px;
+	background-color: #00ABA9;
+	opacity: .7;
+	margin-top: 90px;
+	display: absolute; 
+}
+#cuadroazul  h2{
+	color: white;
+	font-weight: bold;
+	font-size: 10px;
+	line-height: 8px;
+	letter-spacing: 1px;
+	padding-top: 40px;
+	padding-left: 15px;
+	display: absolute;
+	opacity: .8;
+}
+#cuadroazul p{
+	color: white;
+	font-size: 7px;
+	width: 130px;
+	text-align: center;
+	margin-top: 15px;
+	line-height: 17px;
+
+}
+#chale1{
+	margin-right: -24px;
+
+
+}
+#chale2{
+	margin-left: -24px;
+
+}
+#cuadroazul img{
+	width: 13px;
+	height:13px;
+	margin-left: 57px;
+	margin-top: 12px;
+
+
+}
+
 #p4{
 	background-image: url("https://images.unsplash.com/photo-1445140402314-ffd9630d0b19?dpr=1.5&fit=crop&fm=jpg&h=475&ixlib=rb-0.3.5&q=66&w=1050");
 }
@@ -244,7 +300,7 @@ h3{
 #cinco > img{
 	width: 40px;
 	height: 5px;
-	margin-left: 470px;
+	margin-left: 463px;
 	margin-top: 15px;
 }
 #cinco p{
@@ -277,7 +333,7 @@ h6{
 	background-color: #191919;
 	display: flex;
 	flex-direction: row;
-	flex-wrap: no-wrap;
+	flex-wrap: wrap;
 	justify-content: center;
 	align-items: center;
 }
@@ -299,4 +355,83 @@ h6{
 	height:250px;
 	border: 3px solid #5E5E5E;
 
+}
+#aboutus img{
+	width: 30px;
+	height:4px;
+	margin-left: 107px;
+}
+#aboutus p{
+	font-size: 10px;
+	width: 190px;
+	text-align: center;
+	color: #EEEEEE;
+	margin-top: 30px;
+}
+#contactus p{
+	color: white;
+	font-size: 9px;
+	font-weight: bold;
+	margin-top: 15px;
+	margin-left: 12px;
+
+
+}
+input[type=email]{
+	background-color: transparent;
+	border-top: transparent;
+	border-left: transparent;
+	border-right: transparent;
+	border-bottom-color:  #5E5E5E;
+	margin-left: 10px;
+	margin-top: 8px;
+	outline: transparent;
+	color: white;
+}
+input[type=text]{
+	background-color: transparent;
+	border-top: transparent;
+	border-left: transparent;
+	border-right: transparent;
+	border-bottom-color:  #5E5E5E;
+	margin-left: 10px;
+	margin-top: 8px;
+	outline: transparent;
+	color: white;
+	font-family: Verdana;
+}
+input[type=submit]{
+	background-color: transparent;
+	border-color: transparent;
+    color: #1BA1E2;
+	font-size: 9px;
+	font-weight: bold;
+	margin-top: 15px;
+	margin-left: 180px;
+	font-family: Verdana;
+
+}
+#siete{
+	height: 20%;
+    background-color: #00ABA9;
+  
+}
+#siete p{
+	margin-top: 30px;
+	margin-left: 190px;
+	width: 300px; 
+	color:white;
+    font-size: 9px;
+}
+#siete img{
+	width:13px;
+	height:13px;
+	display: relative;
+    margin-left: 10px;
+
+}
+#iconos{
+	margin-left: 650px;
+	width: 300px;
+    display: relative;
 }
